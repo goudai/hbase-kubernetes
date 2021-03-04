@@ -1,4 +1,5 @@
-FROM java:7
+FROM adoptopenjdk/openjdk8:debianslim-jre
+
 
 ENV  DEBIAN_FRONTEND noninteractive
 
