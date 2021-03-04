@@ -2,7 +2,7 @@ FROM java:7
 
 ENV  DEBIAN_FRONTEND noninteractive
 
-ENV  HADOOP_VERSION 2.7.1
+ENV  HADOOP_VERSION 3.2.2
 ENV  HADOOP_INSTALL_DIR /opt/hadoop
 
 # init base os
