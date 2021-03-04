@@ -1,6 +1,6 @@
 FROM java:7
 
-ENV HBASE_VERSION 1.2.6
+ENV HBASE_VERSION 2.3.4
 ENV HBASE_INSTALL_DIR /opt/hbase
 
 ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
