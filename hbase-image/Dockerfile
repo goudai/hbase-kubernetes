@@ -7,7 +7,7 @@ ENV HBASE_INSTALL_DIR /opt/hbase
 #ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 
 RUN mkdir -p ${HBASE_INSTALL_DIR} && \
-    curl -L https://mirrors.tuna.tsinghua.edu.cn/apache/hbase/${HBASE_VERSION}/hbase-${HBASE_VERSION}-bin.tar.gz | tar -xz --strip=1 -C ${HBASE_INSTALL_DIR}
+    curl -L https://apache.mediamirrors.org/hbase/${HBASE_VERSION}/hbase-${HBASE_VERSION}-bin.tar.gz | tar -xz --strip=1 -C ${HBASE_INSTALL_DIR}
 
 
 ADD hbase-site.xml /opt/hbase/conf/hbase-site.xml

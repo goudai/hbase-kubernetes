@@ -17,4 +17,6 @@ Download hbase from `https://archive.apache.org/dist/hbase/1.2.3/hbase-1.2.3-bin
 # kubectl create -f region.yaml
 ```
 
+IMAGE_BASE_URL=registry.cn-shanghai.aliyuncs.com/qingmuio IMAGE_TAG=3.2.2 make 
+
 Feel free to file a issue

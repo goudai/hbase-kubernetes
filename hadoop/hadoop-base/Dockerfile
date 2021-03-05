@@ -14,9 +14,9 @@ RUN  apt-get update && \
      apt-get autoremove --yes && \
      rm -rf /var/lib/{apt,dpkg,cache,log}/
 
-# download hadoop 
+# download hadoop
 RUN  mkdir -p ${HADOOP_INSTALL_DIR} && \
-     curl -L http://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/hadoop-${HADOOP_VERSION}/hadoop-${HADOOP_VERSION}.tar.gz | tar -xz --strip=1 -C ${HADOOP_INSTALL_DIR}
+     curl -L https://apache.mediamirrors.org/hadoop/common/hadoop-${HADOOP_VERSION}/hadoop-${HADOOP_VERSION}.tar.gz | tar -xz --strip=1 -C ${HADOOP_INSTALL_DIR}
 
 # Enable jmx by default
 WORKDIR  ${HADOOP_INSTALL_DIR}
