@@ -1,4 +1,4 @@
-FROM index.caicloud.io/caicloud/hadoop-base:sysinfra
+FROM registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-base:3.2.2
 
 ADD  conf/core-site.xml  ${HADOOP_INSTALL_DIR}/etc/hadoop/core-site.xml
 ADD  conf/hdfs-site.xml  ${HADOOP_INSTALL_DIR}/etc/hadoop/hdfs-site.xml
