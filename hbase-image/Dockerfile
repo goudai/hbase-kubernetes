@@ -4,7 +4,6 @@ FROM adoptopenjdk/openjdk8:debianslim-jre
 ENV HBASE_VERSION 2.3.4
 ENV HBASE_INSTALL_DIR /opt/hbase
 
-#ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 
 RUN mkdir -p ${HBASE_INSTALL_DIR} && \
     curl -L https://apache.mediamirrors.org/hbase/${HBASE_VERSION}/hbase-${HBASE_VERSION}-bin.tar.gz | tar -xz --strip=1 -C ${HBASE_INSTALL_DIR}
