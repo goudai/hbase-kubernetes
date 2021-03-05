@@ -70,7 +70,7 @@ metadata:
 spec:
   containers:
   - name: server
-    image: cargo.caicloudprivatetest.com/caicloud/zookeeper:sysinfra
+    image: registry.cn-shanghai.aliyuncs.com/qingmuio/zookeeper:sysinfra
     imagePullPolicy: Always
     env:
     - name: POD_NAMESPACE
@@ -101,7 +101,7 @@ metadata:
 spec:
   containers:
   - name: server
-    image: cargo.caicloudprivatetest.com/caicloud/zookeeper:sysinfra
+    image: registry.cn-shanghai.aliyuncs.com/qingmuio/zookeeper:sysinfra
     imagePullPolicy: Always
     env:
     - name: POD_NAMESPACE
@@ -132,7 +132,7 @@ metadata:
 spec:
   containers:
   - name: server
-    image: cargo.caicloudprivatetest.com/caicloud/zookeeper:sysinfra
+    image: registry.cn-shanghai.aliyuncs.com/qingmuio/zookeeper:sysinfra
     imagePullPolicy: Always
     env:
     - name: POD_NAMESPACE

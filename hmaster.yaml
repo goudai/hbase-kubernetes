@@ -53,7 +53,7 @@ spec:
       value: "2181"
     - name: ZNODE_PARENT
       value: hbase
-    image: cargo.caicloudprivatetest.com/caicloud/hbase
+    image: registry.cn-shanghai.aliyuncs.com/qingmuio/hbase
     imagePullPolicy: Always
     name: hbase-master-a
     ports:
@@ -89,7 +89,7 @@ spec:
       value: "2181"
     - name: ZNODE_PARENT
       value: hbase
-    image: cargo.caicloudprivatetest.com/caicloud/hbase
+    image: registry.cn-shanghai.aliyuncs.com/qingmuio/hbase
     imagePullPolicy: Always
     name: hbase-master-b
     ports:

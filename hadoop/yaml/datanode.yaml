@@ -45,7 +45,7 @@ spec:
   #   kubernetes.io/hostname: kube-node-6
   containers:
     - name: hadoop-datanode-1
-      image: cargo.caicloudprivatetest.com/caicloud/hadoop-datanode
+      image: registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-datanode:3.2.2
       imagePullPolicy: Always
       volumeMounts:
         - name: hdfs-dn
@@ -80,7 +80,7 @@ spec:
   #   kubernetes.io/hostname: kube-node-7
   containers:
     - name: hadoop-datanode-2
-      image: cargo.caicloudprivatetest.com/caicloud/hadoop-datanode
+      image: registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-datanode
       imagePullPolicy: Always
       volumeMounts:
         - name: hdfs-dn

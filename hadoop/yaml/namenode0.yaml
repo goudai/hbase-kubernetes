@@ -25,7 +25,7 @@ spec:
   #   kubernetes.io/hostname: kube-node-7
   containers:
     - name: namenode
-      image: cargo.caicloudprivatetest.com/caicloud/hadoop-namenode
+      image: registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-namenode:3.2.2
       imagePullPolicy: Always
       ports:
         - containerPort: 8020

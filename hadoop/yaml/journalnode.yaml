@@ -58,7 +58,7 @@ spec:
         valueFrom:
           fieldRef:
             fieldPath: metadata.name
-      image: cargo.caicloudprivatetest.com/caicloud/hadoop-journalnode
+      image: registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-journalnode:3.2.2
       imagePullPolicy: Always
       ports:
         - containerPort: 8485
@@ -82,7 +82,7 @@ spec:
         valueFrom:
           fieldRef:
             fieldPath: metadata.name
-      image: cargo.caicloudprivatetest.com/caicloud/hadoop-journalnode
+      image: registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-journalnode
       imagePullPolicy: Always
       ports:
         - containerPort: 8485
@@ -106,7 +106,7 @@ spec:
         valueFrom:
           fieldRef:
             fieldPath: metadata.name
-      image: cargo.caicloudprivatetest.com/caicloud/hadoop-journalnode
+      image: registry.cn-shanghai.aliyuncs.com/qingmuio/hadoop-journalnode
       imagePullPolicy: Always
       ports:
         - containerPort: 8485
